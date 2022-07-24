@@ -11,12 +11,13 @@
 		print_r($dadosJson);	
 	}
 	if(isset($_POST['PesquisarLivro'])) {
+		$msg = "Não foi encontrado";
 		foreach ($dadosJsonDecodificados as $key => $value) {
 	    		if($value ==  $_POST['isbn']) {
         			$msg = 'Encontrado na lista!';
     			}
 		}
-		echo $msg;
+		print_r($msg);
 	}
 ?>
 <a href='https://trab3.herokuapp.com'>
