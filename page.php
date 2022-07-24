@@ -11,3 +11,5 @@
 		print_r($dadosJson);	
 	}
 ?>
+<a href='https://trab3.herokuapp.com'>
+	Voltar</a>
