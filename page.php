@@ -10,8 +10,8 @@
 	if(isset($_POST['MostrarTudo'])) {
 		print_r($dadosJson);	
 	}
-	if(isset($_POST['isbn'])) {
-		//print_r($dadosJson(0));
+	if(isset($_POST['PesquisarLivro'])) {
+		print_r($dadosJson(0));
 	}
 ?>
 <a href='https://trab3.herokuapp.com'>
