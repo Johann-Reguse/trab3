@@ -11,7 +11,7 @@
 		print_r($dadosJson);	
 	}
 	if(isset($_POST['isbn'])) {
-		print_r($dadosJson(0));
+		//print_r($dadosJson(0));
 	}
 ?>
 <a href='https://trab3.herokuapp.com'>
