@@ -10,6 +10,9 @@
 	if(isset($_POST['MostrarTudo'])) {
 		print_r($dadosJson);	
 	}
+	if(isset($_POST['isbn'])) {
+		print_r($dadosJson[7]);
+	}
 ?>
 <a href='https://trab3.herokuapp.com'>
-	Voltar</a>
+	<br>Voltar</a>
