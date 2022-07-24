@@ -16,6 +16,7 @@
         			$msg = 'Encontrado na lista!';
     			}
 		}
+		echo $msg;
 	}
 ?>
 <a href='https://trab3.herokuapp.com'>
