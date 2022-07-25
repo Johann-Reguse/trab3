@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,6 +34,5 @@
             <input type="text" name="isbn" placeholder="ISBN">
             <input type="submit" name="PesquisarLivro" value="Pesquisar Livro por ISBN">
         </form>
-        
     </body>
 </html>
