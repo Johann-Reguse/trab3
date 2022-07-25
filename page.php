@@ -23,10 +23,8 @@
 			foreach($value as $chave => $valor){
 				if($valor == $isbn) {
         				$msg = 'Encontrado na lista!';	
-					print_r($msg);
 				}
 				$teste = $value;
-				print_r($teste);
 			}
 		}
 		print_r($msg);
