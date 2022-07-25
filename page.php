@@ -22,7 +22,8 @@
 		foreach ($dadosJsonDecodificados["Livro"] as $key => $value) {
 			foreach($value as $chave => $valor){
 				if($valor == $isbn) {
-        				$msg = 'Encontrado na lista!';	
+        				$msg = 'Encontrado na lista!';
+					print_r($value);
 				}
 				$teste = $value;
 			}
