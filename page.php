@@ -7,6 +7,7 @@
 		$values = $_POST;
 		print_r($values);
 		$values = json_encode($_POST);
+		print_r($values);
 		file_put_contents('db.json', $values, FILE_APPEND);
 	}
 	if(isset($_POST['MostrarTudo'])) {
