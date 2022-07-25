@@ -4,6 +4,8 @@
 	$dadosJsonDecodificados = json_decode($dadosJson);
 	if(isset($_POST['inserir'])) {
 		echo "Livro enviado";
+		$values = $_POST;
+		print_r($values);
 		$values = json_encode($_POST);
 		file_put_contents('db.json', $values, FILE_APPEND);
 	}
