@@ -24,7 +24,8 @@
         			$msg = 'Encontrado na lista!';	
 				print_r($msg);
 			}
-			print_r($dadosJsonDecodificados);
+			$teste = $dadosJsonDecodificados["Livro"];
+			print_r($teste);
 		}
 		print_r($msg);
     	}	
