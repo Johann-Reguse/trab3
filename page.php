@@ -24,7 +24,7 @@
         			$msg = 'Encontrado na lista!';	
 				print_r($msg);
 			}
-			$teste = $key;
+			$teste = $value;
 			print_r($teste);
 		}
 		print_r($msg);
